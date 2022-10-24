@@ -1,4 +1,4 @@
-package com.fundamentosplatzi.springboot.fundamentos.component;
+package com.creacion.springboot.execute.component;
 
 import org.springframework.stereotype.Component;
 

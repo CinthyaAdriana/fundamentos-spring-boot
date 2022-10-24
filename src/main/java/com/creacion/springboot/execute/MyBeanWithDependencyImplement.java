@@ -1,8 +1,13 @@
-package com.fundamentosplatzi.springboot.fundamentos;
+package com.creacion.springboot.execute;
 
-import com.fundamentosplatzi.springboot.fundamentos.bean.MyOperation;
+import com.creacion.springboot.execute.bean.MyOperation;
+import org.apache.juli.logging.Log;
+import org.apache.juli.logging.LogFactory;
 
 public class MyBeanWithDependencyImplement implements MyBeanWithDependency {
+
+    Log LOGGER = LogFactory.getLog(MyBeanWithDependencyImplement.class);
+
    //Aqui estamos inyectando la dependencia
    private MyOperation myOperation;
 

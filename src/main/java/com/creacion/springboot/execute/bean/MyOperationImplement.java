@@ -1,4 +1,4 @@
-package com.fundamentosplatzi.springboot.fundamentos.bean;
+package com.creacion.springboot.execute.bean;
 
 public class MyOperationImplement implements MyOperation{
     @Override
